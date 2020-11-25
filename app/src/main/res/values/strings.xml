@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">QR Code Scanner</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="facebook_app_id" translatable="false">1148127128889926</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1148127128889926</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="password" translatable="false">Password</string>
+    <string name="create_text" translatable="false">Create a new account</string>
+    <string name="username" translatable="false">Full Name</string>
+    <string name="register" translatable="false">Sign Up</string>
+    <string name="confirm_password" translatable="false">Confirm Password</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="reset_text" translatable="false">By clicking RESET, you will receive an email to reset you password</string>
+
+    <string name="menu_home" translatable="false">Home</string>
+    <string name="menu_gallery" translatable="false">Gallery</string>
+    <string name="menu_slideshow" translatable="false">Slideshow</string>
+    <string name="menu_scan">Scan QR Code</string>
+    <string name="menu_pendingqr">Pending QR List</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_logout">LogOut</string>
+    <string name="menu_type">Update Type</string>
+    <string name="menu_qrlist">Add QR Code</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="menu_allusers">All Users</string>
+    <string name="menu_val">Update Val</string>
+    <string name="authoritylist" translatable="false">AuthorityList</string>
+    <string name="please_wait" translatable="false">Please Wait</string>
+    <string name="loading" translatable="false">Loading</string>
+    <string name="menu_requestedqr">Pending QR requested</string>
+
+    <string name="selectlanguage" translatable="false">Choose a language</string>
+
+    <string name="secsum">Sec Sum:</string>
+    <string name="type">Type</string>
+    <string name="nr">NR</string>
+    <string name="val">VAL</string>
+    <string name="usersum">User Sum</string>
+    <string name="scanqr_barcode">Scan QR/Bar Code</string>
+    <string name="result">Result</string>
+    <string name="ondatafound">No Data Found</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="addcode">Add Code</string>
+    <string name="scanhistory">Scan History</string>
+</resources>

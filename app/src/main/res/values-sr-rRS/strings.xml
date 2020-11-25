@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pričoplet žetoni</string>
+    <string name="menu_scan">Snimi žeton</string>
+    <string name="menu_pendingqr">Odobri prenos žetona</string>
+    <string name="menu_profile">Profil</string>
+    <string name="menu_requestedqr">Lista zatraženih žetona</string>
+    <string name="menu_allusers">Svi korisnici</string>
+    <string name="menu_type">Dodaj tip</string>
+    <string name="menu_val">Dodaj vrednost</string>
+    <string name="menu_qrlist">Dodaj žetone</string>
+    <string name="menu_logout">Izađi</string>
+    <string name="secsum">Bodovi:</string>
+    <string name="type">TIP</string>
+    <string name="nr">BROJ</string>
+    <string name="val">VREDNOST</string>
+    <string name="usersum">Vrednost žetona</string>
+    <string name="scanqr_barcode">Skeniraj žeton</string>
+    <string name="result">Rezultat</string>
+    <string name="ondatafound">Nema podataka</string>
+    <string name="update">Ažuriraj</string>
+    <string name="delete">Obriši</string>
+    <string name="addcode">Dodaj žeton</string>
+    <string name="scanhistory">Lista žetona</string>
+</resources>

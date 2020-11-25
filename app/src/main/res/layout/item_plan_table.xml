@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorTableCellOdd"
+    android:id="@+id/parent"
+    >
+
+    <LinearLayout
+        android:weightSum="4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTableBorder"
+            />
+        <TextView
+            android:id="@+id/typetv"
+            android:layout_width="0dp"
+            android:fontFamily="@font/roboto_slab"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:text="10:00"
+            android:textColor="@color/colorTableBorder" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTableBorder"
+            />
+        <TextView
+            android:id="@+id/nrtv"
+            android:layout_width="0dp"
+            android:fontFamily="@font/roboto_slab"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:paddingStart="16dp"
+            android:text="1"
+            android:textColor="@color/colorTableBorder" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTableBorder"
+            />
+
+        <TextView
+            android:id="@+id/valtv"
+            android:layout_width="0dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="45dp"
+            android:fontFamily="@font/roboto_slab"
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:gravity="center_vertical"
+            android:text="9"
+            android:paddingEnd="8dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:textColor="@color/colorTableBorder" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTableBorder"
+            />
+
+        <TextView
+            android:fontFamily="@font/roboto_slab"
+            android:id="@+id/secsumtv"
+            android:layout_width="0dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:paddingStart="16dp"
+            android:gravity="center_vertical"
+            android:text="70"
+            android:paddingEnd="8dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:textColor="@color/colorTableBorder" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorTableBorder"
+            />
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/closeLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorTableBorder"
+        android:visibility="gone"
+        />
+</LinearLayout>

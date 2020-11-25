@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/offwhite"
+    android:layout_height="match_parent"
+    tools:context="com.inventerit.qrcodescanner.activities.RegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:background="@drawable/login_background"
+        android:gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:fontFamily="@font/roboto_slab"
+            android:layout_height="wrap_content"
+            android:text="@string/create_text"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_fullname"
+            android:fontFamily="@font/roboto_slab"
+            android:drawableStart="@drawable/ic_user"
+            android:layout_marginTop="10dp"
+            android:inputType="textPersonName"
+            app:met_floatingLabel="normal"
+            android:hint="@string/username"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_email"
+            android:fontFamily="@font/roboto_slab"
+            android:drawableStart="@drawable/ic_mail_outline_black_24dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/email"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_pass"
+            android:fontFamily="@font/roboto_slab"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/password"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:fontFamily="@font/roboto_slab"
+            android:layout_height="wrap_content"
+            android:id="@+id/reg_conpass"
+            android:drawableStart="@drawable/ic_lock_outline_black_24dp"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            app:met_floatingLabel="normal"
+            android:hint="@string/confirm_password"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:textAllCaps="false"
+            android:id="@+id/btn_register"
+            android:fontFamily="@font/roboto_slab"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="10dp"
+            android:textColor="#fff"/>
+
+        <TextView
+            android:id="@+id/signin_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:padding="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/roboto_slab"
+            android:text="Already have an account? Sign In"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

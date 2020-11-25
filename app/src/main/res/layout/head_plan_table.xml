@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="4"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/type_textView"
+        android:layout_width="0dp"
+        android:fontFamily="@font/roboto_slab"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="TYPE"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/nr_textView"
+        android:fontFamily="@font/roboto_slab"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="NR"
+        android:textColor="#ffffff" />
+    <TextView
+        android:fontFamily="@font/roboto_slab"
+        android:id="@+id/val_textView"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:textSize="14sp"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:text="VAL"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto_slab"
+        android:id="@+id/secsum_textView"
+        android:layout_width="0dp"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:paddingStart="8dp"
+        android:text="Sec. Sum"
+        android:textColor="#ffffff" />
+</LinearLayout>

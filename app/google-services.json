@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "940669147017",
+    "firebase_url": "https://qr-code-scanner-ede7d.firebaseio.com",
+    "project_id": "qr-code-scanner-ede7d",
+    "storage_bucket": "qr-code-scanner-ede7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:940669147017:android:659f1a179b170c4cfc3358",
+        "android_client_info": {
+          "package_name": "com.inventerit.qrcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "940669147017-u8093t2pjon2er7j0rrjlgbgahgv119v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeA56PKxQMmMDP4OYMbx3UMi3PvRio8OQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "940669147017-u8093t2pjon2er7j0rrjlgbgahgv119v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

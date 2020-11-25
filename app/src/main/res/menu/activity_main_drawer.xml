@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_scan" />
+        <item
+            android:id="@+id/nav_pendingqr"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_pendingqr" />
+        <item
+            android:id="@+id/nav_requestedqr"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_requestedqr" />
+        <item
+            android:id="@+id/nav_allusers"
+            android:icon="@drawable/ic_action_user"
+            android:visible="false"
+            android:title="@string/menu_allusers" />
+        <item
+            android:id="@+id/nav_type"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_type" />
+
+        <item
+            android:id="@+id/nav_val"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_val" />
+        <item
+            android:id="@+id/nav_qrlist"
+            android:visible="false"
+            android:icon="@drawable/ic_action_qrlist"
+            android:title="@string/menu_qrlist" />
+        <item
+            android:id="@+id/nav_authority"
+            android:icon="@drawable/ic_action_qrlist"
+            android:title="@string/authoritylist" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_action_user"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_changeLang"
+            android:icon="@drawable/ic_action_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_action_logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>
